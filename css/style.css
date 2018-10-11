@@ -358,6 +358,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 .recipe_bg .carousel-inner{
 	margin: 0 50px;	
+	width: 80%;
 }
 
 .recipe_bg  .carousel-indicators {
@@ -675,6 +676,10 @@ footer .nav li a{
 	right: -48px;
 }
 
+.navbar-nav{
+	margin: 0;
+}
+
 }
 
 /*md*/
@@ -693,21 +698,13 @@ footer .nav li a{
 
 /*lg*/
 @media (min-width: 1200px) {
-  .carousel-inner .active.left { left: -25%; }
-  .carousel-inner .active.right{ left:  25%; }
-	.carousel-inner .next        { left:  25%; }
-	.carousel-inner .prev		     { left: -25%; }
-  .carousel-col                { width: 25%; }
-	.active > div:first-child + div { display:block; }
-  .active > div:first-child + div + div { display:block; }
-	.active > div:first-child + div + div + div { display:block; }
+.carousel-inner .active.left { left: -25%; }
+.carousel-inner .active.right{ left:  25%; }
+.carousel-inner .next        { left:  25%; }
+.carousel-inner .prev		     { left: -25%; }
+.carousel-col                { width: 33%; }
+.active > div:first-child + div { display:block; }
+.active > div:first-child + div + div { display:block; }
+.active > div:first-child + div + div + div { display:block; }
 
 }
-
-
-
-
-
-
-
-
